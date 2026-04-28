@@ -699,14 +699,21 @@ section { padding: 96px 0; }
     align-items: center;
     justify-content: center;
     gap: 10px;
-    opacity: 0;
+    opacity: 1;
     transition: opacity var(--trans);
 }
-.media-card:hover .media-overlay { opacity: 1; }
+.media-card:hover .media-overlay { opacity: 1; background: linear-gradient(to top, rgba(5,13,26,0.95) 0%, rgba(5,13,26,0.35) 60%, rgba(0,180,216,0.08) 100%); }
 .media-overlay i {
-    font-size: 3rem;
+    font-size: 3.8rem;
     color: var(--white);
-    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 2px 12px rgba(0,0,0,0.7));
+    opacity: 0.9;
+    transition: transform var(--trans), opacity var(--trans);
+}
+.media-card:hover .media-overlay i {
+    transform: scale(1.15);
+    opacity: 1;
+    color: var(--accent);
 }
 .media-overlay span {
     font-family: 'Montserrat', sans-serif;
