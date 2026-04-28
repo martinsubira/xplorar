@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XPLORAR – Expediciones científicas, investigación marina y ciencia ciudadana en Argentina.">
+    <title>XPLORAR | ConCiencia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════ NAVBAR ═══ -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="Explorar_blanco.png" alt="XPLORAR" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#quienes-somos" class="nav-link">Quiénes Somos</a></li>
+                <li><a href="#areas" class="nav-link">Áreas</a></li>
+                <li><a href="#que-hacemos" class="nav-link">Qué Hacemos</a></li>
+                <li><a href="#multimedia" class="nav-link">Multimedia</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#contacto" class="nav-link nav-cta">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ════════════════════════════════════ HERO ════ -->
+    <section id="inicio" class="hero">
+        <div class="hero-video-wrap">
+            <!-- Reemplazar por el video de 10 segundos: copiar como "hero-loop.mp4" en esta carpeta -->
+            <video autoplay muted loop playsinline class="hero-video" id="hero-video">
+                <source src="INTRO.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-logo-wrap">
+                <img src="Explorar_blanco.png" alt="XPLORAR" class="hero-logo">
+            </div>
+<p class="hero-sub">Expediciones científicas &nbsp;·&nbsp; Investigación marina &nbsp;·&nbsp; Ciencia ciudadana</p>
+            <div class="hero-btns">
+                <a href="#que-hacemos" class="btn btn-primary">Qué hacemos</a>
+                <a href="#quienes-somos" class="btn btn-outline">Quiénes somos</a>
+            </div>
+            <a href="#quienes-somos" class="hero-scroll" aria-label="Bajar">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════ MISIÓN BANNER ══ -->
+    <section class="mission-banner">
+        <div class="container">
+            <blockquote class="mission-quote">
+                "Somos un puente entre las personas, la ciencia y la naturaleza,<br>
+                a través de la exploración, la investigación y la ciencia ciudadana."
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ STATS ════ -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title centered">Nuestro impacto</h2>
+            <div class="stats-grid">
+                <div class="stat-tile tile-dark">
+                    <i class="fa-solid fa-compass stat-icon"></i>
+                    <div class="stat-num-wrap">
+                        <span class="stat-num" data-target="20">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Expediciones realizadas</p>
+                </div>
+                <div class="stat-tile tile-light">
+                    <i class="fa-solid fa-users stat-icon"></i>
+                    <div class="stat-num-wrap">
+                        <span class="stat-num" data-target="500">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Ciudadanos participantes</p>
+                </div>
+                <div class="stat-tile tile-dark">
+                    <i class="fa-solid fa-flask stat-icon"></i>
+                    <div class="stat-num-wrap">
+                        <span class="stat-num" data-target="30">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Proyectos científicos</p>
+                </div>
+                <div class="stat-tile tile-light">
+                    <i class="fa-solid fa-graduation-cap stat-icon"></i>
+                    <div class="stat-num-wrap">
+                        <span class="stat-num" data-target="15">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Programas educativos</p>
+                </div>
+            </div>
+            <p class="stats-note">* Valores de referencia – actualizar con datos reales</p>
+        </div>
+    </section>
+
+    <!-- ═════════════════════════════ QUIÉNES SOMOS ══ -->
+    <section id="quienes-somos" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <span class="section-tag">Quiénes somos</span>
+                    <h2 class="section-title">Ciencia, exploración<br>y comunidad</h2>
+                    <p>
+                        XPLORAR está conformada por un equipo multidisciplinario de profesionales unidos para desarrollar proyectos de investigación científica, programas de educación, formación y participación ciudadana, así como la divulgación de la ciencia en relación a la conservación, conocimiento y protección del patrimonio natural y cultural marítimo y subacuático argentino.
+                    </p>
+                    <a href="#areas" class="btn btn-primary">Nuestras áreas de trabajo</a>
+                </div>
+                <div class="about-visual reveal reveal-right">
+                    <div class="about-video-card">
+                        <video autoplay muted loop playsinline class="about-vid">
+                            <source src="VIDEO_2_COMODORO.mp4" type="video/mp4">
+                        </video>
+                        <div class="about-badge">
+                            <i class="fa-solid fa-anchor"></i>
+                            <span>Patrimonio<br>subacuático</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════ ÁREAS CLAVE ═══ -->
+    <section id="areas" class="areas-section">
+        <div class="container">
+            <span class="section-tag centered">Nuestras áreas</span>
+            <h2 class="section-title centered">Cuatro pilares de trabajo</h2>
+            <p class="section-sub">Los ejes que sostienen nuestra misión de explorar, conocer y proteger</p>
+            <div class="areas-grid">
+                <div class="area-card reveal">
+                    <div class="area-icon"><i class="fa-solid fa-magnifying-glass-location"></i></div>
+                    <h3>Investigación<br>y Exploración</h3>
+                    <p>Campañas científicas en arqueología subacuática, biología marina y conservación del patrimonio natural argentino.</p>
+                </div>
+                <div class="area-card reveal">
+                    <div class="area-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                    <h3>Educación<br>y Formación</h3>
+                    <p>Cursos, talleres y capacitaciones en buceo científico, fotografía subacuática y biología marina.</p>
+                </div>
+                <div class="area-card reveal">
+                    <div class="area-icon"><i class="fa-solid fa-person-swimming"></i></div>
+                    <h3>Buceo Científico<br>y Expediciones</h3>
+                    <p>Expediciones nacionales e internacionales donde la ciencia y la aventura son los protagonistas.</p>
+                </div>
+                <div class="area-card reveal">
+                    <div class="area-icon"><i class="fa-solid fa-satellite-dish"></i></div>
+                    <h3>Divulgación y<br>Ciencia Ciudadana</h3>
+                    <p>Programas de participación que conectan personas con la naturaleza y la investigación científica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ QUÉ HACEMOS ══ -->
+    <section id="que-hacemos" class="programs-section">
+        <div class="container">
+            <span class="section-tag centered">Programas</span>
+            <h2 class="section-title centered">Qué hacemos</h2>
+            <div class="programs-grid">
+
+                <div class="prog-card reveal">
+                    <div class="prog-icon"><i class="fa-solid fa-route"></i></div>
+                    <h3>Expediciones</h3>
+                    <p>Viajes y destinos nacionales e internacionales donde la ciencia y los programas de ciencia ciudadana son los protagonistas. Sentite parte de exploraciones reales.</p>
+                    <a href="#contacto" class="prog-link">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="prog-card reveal">
+                    <div class="prog-icon"><i class="fa-solid fa-microscope"></i></div>
+                    <h3>Investigación</h3>
+                    <p>Imágenes y galería visual de campañas científicas arqueológicas subacuáticas, biología marina, conservación y relevamientos de reconocimiento.</p>
+                    <a href="#multimedia" class="prog-link">Ver galería <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="prog-card reveal">
+                    <div class="prog-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>Educación</h3>
+                    <p>Cursos, talleres y capacitaciones en buceo científico, patrimonio cultural subacuático, arqueología subacuática, biología marina y fotografía.</p>
+                    <a href="#contacto" class="prog-link">Ver cursos <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="prog-card reveal">
+                    <div class="prog-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h3>Divulgación</h3>
+                    <p>Notas, talleres, programas de desarrollo y experiencias de ciencia ciudadana que acercan la naturaleza y la investigación a la comunidad.</p>
+                    <a href="#contacto" class="prog-link">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="prog-card reveal">
+                    <div class="prog-icon"><i class="fa-solid fa-film"></i></div>
+                    <h3>Documentales</h3>
+                    <p>Producciones audiovisuales sobre naturaleza, exploración, conservación, arqueología subacuática, biología marina, pesca artesanal y profesiones del mar.</p>
+                    <a href="#multimedia" class="prog-link">Ver producciones <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="prog-card reveal prog-card--cta">
+                    <div class="prog-icon"><i class="fa-solid fa-gear"></i></div>
+                    <h3>Servicios</h3>
+                    <p>Consultoría ambiental, estudios de impacto, relevamientos subacuáticos, scouting en zonas remotas, registro audiovisual y gestión de emergencias.</p>
+                    <a href="#servicios" class="prog-link">Ver servicios <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════ SERVICIOS ═════ -->
+    <section id="servicios" class="services-section">
+        <div class="services-bg">
+            <div class="container">
+                <span class="section-tag centered light">Servicios profesionales</span>
+                <h2 class="section-title centered light">¿Qué podemos hacer<br>por tu proyecto?</h2>
+                <p class="section-sub light">Capacidad técnica y logística para proyectos en entornos exigentes</p>
+                <div class="services-grid">
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-leaf"></i>
+                        <span>Consultoría y monitoreo ambiental</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>Estudios de impacto ambiental</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-water"></i>
+                        <span>Relevamientos subacuáticos, aéreos y terrestres</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <span>Scouting técnico y logístico en zonas remotas</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Registro y producción fotográfica / audiovisual</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-recycle"></i>
+                        <span>Remediación ambiental</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <span>Coordinación y gestión de emergencias</span>
+                    </div>
+                    <div class="svc-item reveal">
+                        <i class="fa-solid fa-truck"></i>
+                        <span>Traslados con soporte operativo terrestre y marítimo</span>
+                    </div>
+                </div>
+                <div class="services-cta">
+                    <a href="#contacto" class="btn btn-primary">Consultar por un servicio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════ MULTIMEDIA ════ -->
+    <section id="multimedia" class="media-section">
+        <div class="container">
+            <span class="section-tag centered">Multimedia</span>
+            <h2 class="section-title centered">Expediciones en imágenes</h2>
+            <p class="section-sub">Registros visuales de nuestras campañas científicas</p>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="thumb_video1.jpg" class="media-thumb" alt="Comodoro — Expedición 1">
+                    <div class="media-overlay">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>Comodoro — Expedición 1</span>
+                    </div>
+                </div>
+                <div class="media-card">
+                    <img src="thumb_video2.jpg" class="media-thumb" alt="Comodoro — Expedición 2">
+                    <div class="media-overlay">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>Comodoro — Expedición 2</span>
+                    </div>
+                </div>
+                <div class="media-card">
+                    <img src="thumb_video3.jpg" class="media-thumb" alt="Comodoro — Expedición 3">
+                    <div class="media-overlay">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>Comodoro — Expedición 3</span>
+                    </div>
+                </div>
+                <div class="media-card">
+                    <img src="thumb_rederos.jpg" class="media-thumb" alt="Documental — Rederos">
+                    <div class="media-overlay">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>Documental — Rederos</span>
+                    </div>
+                </div>
+                <div class="media-card">
+                    <img src="thumb_anzuelo.jpg" class="media-thumb" alt="Documental — Anzuelo">
+                    <div class="media-overlay">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>Documental — Anzuelo</span>
+                    </div>
+                </div>
+                <div class="media-card media-join">
+                    <div class="media-join-inner">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p>¿Querés ser parte de la próxima expedición?</p>
+                        <a href="#contacto" class="btn btn-primary btn-sm">Súmate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════ VIDEO LIGHTBOX (modal) ══ -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" hidden>
+        <div class="lightbox-backdrop" id="lb-backdrop"></div>
+        <div class="lightbox-inner">
+            <button class="lb-close" id="lb-close" aria-label="Cerrar">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <video id="lb-video" controls class="lb-video"></video>
+        </div>
+    </div>
+
+    <!-- ══════════════════════════════ CONTACTO ══════ -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="section-title">Sumáte a<br>la exploración</h2>
+                    <p>¿Tenés un proyecto, una idea o querés ser parte de nuestra comunidad científica? Escribinos.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@xplorar.org">info@xplorar.org</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                            @xplorar.arg
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Argentina — Patagonia
+                        </li>
+                    </ul>
+                    <div class="social-row">
+                        <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrap reveal reveal-right">
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="nombre" placeholder="Nombre" required autocomplete="given-name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="apellido" placeholder="Apellido" required autocomplete="family-name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Correo electrónico" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <select name="interes">
+                                <option value="" disabled selected>¿Qué te interesa?</option>
+                                <option value="expediciones">Expediciones</option>
+                                <option value="educacion">Educación / Cursos</option>
+                                <option value="investigacion">Investigación</option>
+                                <option value="ciencia-ciudadana">Ciencia Ciudadana</option>
+                                <option value="servicios">Servicios profesionales</option>
+                                <option value="documentales">Documentales</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensaje" placeholder="Tu mensaje..." rows="4"></textarea>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" id="news-check" name="newsletter">
+                            <label for="news-check">Quiero recibir novedades y actualizaciones de XPLORAR</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+                        <div class="form-success" id="form-success" hidden>
+                            <i class="fa-solid fa-circle-check"></i>
+                            ¡Mensaje enviado! Nos ponemos en contacto a la brevedad.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════ FOOTER ══════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="EXPLORAR LOGO1.png" alt="XPLORAR" class="footer-logo">
+                    <p>ConCiencia – Expediciones y exploración científica. Ciencia ciudadana. Argentina.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                        <li><a href="#areas">Áreas de trabajo</a></li>
+                        <li><a href="#que-hacemos">Qué Hacemos</a></li>
+                        <li><a href="#multimedia">Multimedia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Programas</h4>
+                    <ul>
+                        <li><a href="#que-hacemos">Expediciones</a></li>
+                        <li><a href="#que-hacemos">Investigación</a></li>
+                        <li><a href="#que-hacemos">Educación</a></li>
+                        <li><a href="#que-hacemos">Documentales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:info@xplorar.org">info@xplorar.org</a></li>
+                        <li><a href="#contacto">Escribinos</a></li>
+                        <li><a href="#contacto">Sumate al equipo</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 XPLORAR. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
